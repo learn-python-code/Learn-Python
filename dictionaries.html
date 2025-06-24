@@ -92,8 +92,49 @@ li {
 </div>
 
   <div class="container">
-    <h1>Dictionaries in Python</h1><p>Dictionaries content here...</p>
-  </div>
+  <h1>Dictionaries in Python</h1>
+  <p>
+    In Python, a dictionary is a built-in data type that allows you to store data in key-value pairs. Dictionaries are powerful because they provide a way to map unique keys to values, making data retrieval fast and intuitive. Dictionaries are mutable, meaning their contents can be changed after creation. They are defined using curly braces <code>{}</code>, with each key and value separated by a colon.
+  </p>
+  <p>
+    A simple dictionary looks like this:
+    <br><code>person = {"name": "Alice", "age": 25, "city": "New York"}</code>
+  </p>
+  <p>
+    In this example, <code>"name"</code>, <code>"age"</code>, and <code>"city"</code> are keys, and their corresponding values are <code>"Alice"</code>, <code>25</code>, and <code>"New York"</code>. Keys in a dictionary must be unique and immutable types such as strings, numbers, or tuples. Values can be of any data type and can be duplicated.
+  </p>
+  <p>
+    To access values, you use the key:
+    <br><code>print(person["name"])</code> <em># Outputs: Alice</em>
+  </p>
+  <p>
+    You can add a new key-value pair or update an existing one by assigning a value to a key:
+    <br><code>person["profession"] = "Engineer"</code> <em># Adds a new key</em><br>
+    <code>person["age"] = 26</code> <em># Updates the value for the key "age"</em>
+  </p>
+  <p>
+    To remove a key-value pair, you can use <code>del</code> or <code>pop()</code>:
+    <br><code>del person["city"]</code><br>
+    <code>profession = person.pop("profession")</code>
+  </p>
+  <p>
+    Dictionaries offer several useful methods:
+    <br><code>person.keys()</code> returns a view of all keys.<br>
+    <code>person.values()</code> returns a view of all values.<br>
+    <code>person.items()</code> returns key-value pairs as tuples.
+  </p>
+  <p>
+    You can iterate over a dictionary:
+    <br><code>for key, value in person.items():<br>&nbsp;&nbsp;&nbsp;&nbsp;print(key, value)</code>
+  </p>
+  <p>
+    Dictionaries can also contain nested dictionaries:
+    <br><code>student = {"name": "Bob", "marks": {"math": 90, "science": 85}}</code>
+  </p>
+  <p>
+    In summary, dictionaries are versatile structures in Python used for mapping and organizing data efficiently. They are widely used in situations where relationships between data elements are important, such as representing JSON data, counting frequencies, and implementing caches.
+  </p>
+      </div>
   
 <div class="footer">by Akhil Agnihotri</div>
 
