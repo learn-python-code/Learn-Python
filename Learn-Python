@@ -1,0 +1,32 @@
+<!-- index.html --><!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learn Python - Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to Learn Python</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="its-uses.html">Uses</a>
+      <a href="how-to-use.html">How to Use</a>
+      <a href="images-of-python-programs.html">Program Images</a>
+      <a href="why-learn-python.html">Why Learn Python?</a>
+      <a href="faq.html">FAQ</a>
+      <a href="services.html">Services</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="message.html">Message</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Start your Python journey!</h2>
+    <p>Learn Python easily with our simple and clear tutorials.</p>
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/rfscVS0vtbw" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </main>
+  <footer>
+    <p>Follow us: <a href="#">Twitter</a> | <a href="#">Facebook</a></
